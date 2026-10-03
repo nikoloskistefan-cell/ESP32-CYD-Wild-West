@@ -1,0 +1,21 @@
+# Arduino build/editor artifacts
+*.elf
+*.hex
+*.bin
+*.eep
+*.map
+*.lst
+build/
+.pio/
+
+# Local IDE and OS files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Local secrets and credentials
+secrets.h
+credentials.h
+*.local
